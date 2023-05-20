@@ -1,23 +1,27 @@
 .App {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100vw;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 body {
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
-    padding: 0;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
 }
-textarea:focus, input:focus{
-    outline: none;
+textarea:focus,
+input:focus {
+  outline: none;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #7C8DC1;
-    opacity: 1; /* Firefox */
-    font-size: 18px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #7c8dc1;
+  opacity: 1; /* Firefox */
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
