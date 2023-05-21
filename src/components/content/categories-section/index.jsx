@@ -24,14 +24,14 @@ const CategoriesSection = () => {
       >
         <span
           style={{
-            fontSize: "18px",
+            fontSize: "15px",
             color: "#404965",
             paddingRight: "19px",
           }}
         >
           CATEGORIES
         </span>
-        <img style={{ width: "25px" }} src={SettingsIcon} alt="settings" />
+        <img style={{ width: "16px" }} src={SettingsIcon} alt="settings" />
       </div>
       {categoriesData &&
         categoriesData.map((data, index) => {
@@ -42,7 +42,7 @@ const CategoriesSection = () => {
                 paddingTop: "17px",
               }}
             >
-              <div style={{ fontSize: "18px", color: "#404965" }}>
+              <div style={{ fontSize: "15px", color: "#404965" }}>
                 {data.Name}
               </div>
               {data.Labels.map((labelData) => {

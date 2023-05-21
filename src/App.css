@@ -21,7 +21,7 @@ input:focus {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #7c8dc1;
   opacity: 1; /* Firefox */
-  font-size: 18px;
+  font-size: 14px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }

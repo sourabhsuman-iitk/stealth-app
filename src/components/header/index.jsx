@@ -5,20 +5,21 @@ const Header = () => {
       style={{
         backgroundColor: "white",
         display: "flex",
-        paddingTop: "18px",
-        paddingLeft: "53px",
-        paddingRight: "47px",
-        paddingBottom: "18px",
+        paddingTop: "12px",
+        paddingLeft: "30px",
+        paddingRight: "28px",
+        paddingBottom: "12px",
         flexDirection: "row",
         alignItems: "center",
         justifyContent: "center",
+        borderBottom: "1px solid #DCE0E3",
       }}
     >
       <div
         style={{
           display: "flex",
           width: "100%",
-          fontSize: "32px",
+          fontSize: "20px",
           color: "#404965",
         }}
       >
@@ -32,8 +33,8 @@ const Header = () => {
           background: "#814EE7",
           borderRadius: "4px",
           border: "none",
-          fontSize: "16px",
-          padding: "11px 23px",
+          fontSize: "14px",
+          padding: "8px 18px",
           fontWeight: "800",
           color: "#FFFFFF",
           cursor: "pointer",
@@ -41,7 +42,7 @@ const Header = () => {
       >
         <span
           style={{
-            fontSize: "20px",
+            fontSize: "16px",
             paddingRight: "7px",
           }}
         >

@@ -35,14 +35,14 @@ const Feed = () => {
           height: "450px",
           overflow: "hidden",
           overflowY: "scroll",
-          borderRadius: "8px",
+          borderRadius: "6px",
           boxShadow: "0 2px 8 0 #636363",
-          padding: "19px 25px",
+          padding: "16px 24px",
         }}
       >
         <div
           style={{
-            fontSize: "22px",
+            fontSize: "18px",
             color: "#404965",
           }}
         >

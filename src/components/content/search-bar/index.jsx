@@ -7,18 +7,18 @@ const SearchBar = ({setSearchTerm}) => {
     return (
       <div
         style={{
-          width: "312px",
+          width: "220px",
           background: "white",
           display: "flex",
           borderRadius: "4px",
           flexDirection: "row",
           alignItems: "center",
           justifyContent: "flex-start",
-          padding: "13px 17px",
+          padding: "8px 12px",
           border: "1.5px solid #A9B5DA",
         }}
       >
-        <img style={{ width: "18px" }} src={SearchIcon} alt="settings" />
+        <img style={{ width: "14px" }} src={SearchIcon} alt="settings" />
         <input
           style={{
             width: "100%",
@@ -26,7 +26,7 @@ const SearchBar = ({setSearchTerm}) => {
             boxShadow: "none",
             color: "#7C8DC1",
             paddingLeft: "8px",
-            fontSize: "18px",
+            fontSize: "14px",
           }}
           type="text"
           placeholder="Search by name"

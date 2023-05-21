@@ -1,11 +1,11 @@
 .container {
     display: block;
     position: relative;
-    padding-left: 35px;
+    padding-left: 30px;
     margin-bottom: 0px;
     cursor: pointer;
     color: #576694;
-    font-size: 16px;
+    font-size: 14px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -26,11 +26,11 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 17px;
-    width: 17px;
+    height: 13px;
+    width: 13px;
     background-color: white;
     border-radius: 2px;
-    border: 2px solid #A9B5DA;
+    border: 1.5px solid #A9B5DA;
   }
   
   /* On mouse-over, add a grey background color */
@@ -57,13 +57,13 @@
   
   /* Style the checkmark/indicator */
   .container .checkmark:after {
-    left: 5px;
+    left: 4px;
     top: 1px;
-    width: 5px;
-    height: 10px;
+    width: 3px;
+    height: 8px;
     border-radius: 2px;
     border: solid white;
-    border-width: 0 3px 3px 0;
+    border-width: 0 2px 2px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
